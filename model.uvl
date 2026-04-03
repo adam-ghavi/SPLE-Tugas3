@@ -21,3 +21,5 @@ features
 				optional
 					Email
 
+constraints
+	Donation => Notification

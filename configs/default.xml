@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <configuration>
-	<feature name="AISCO"/>
-	<feature name="Base"/>
+	<feature automatic="selected" name="AISCO"/>
+	<feature automatic="selected" name="Program"/>
+	<feature manual="selected" name="Activity"/>
+	<feature name="Operational"/>
+	<feature automatic="selected" name="FinancialReport"/>
+	<feature automatic="selected" name="Income"/>
+	<feature name="Expense"/>
+	<feature automatic="selected" manual="selected" name="Donation"/>
+	<feature manual="selected" name="DirectPayment"/>
+	<feature automatic="unselected" name="PaymentGateway"/>
+	<feature automatic="selected" manual="selected" name="Notification"/>
+	<feature manual="selected" name="Email"/>
 </configuration>
